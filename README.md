@@ -1,7 +1,6 @@
 # clientServerFifo
 Objectives:
-CMPUT379 ASSIGNMENT2 REPORT
-This programming project is intended to give me experience in developing client-server programs that utilize FIFOs for communication, and file locking for controlling access to the available FIFOs. Through this project, I learned how to make Fifo and use Fifo. I also understood some blocking features about Fifo.
+This programming project is intended to give me experience in developing client-server programs that utilize FIFOs for communication, and file locking for controlling access to the available FIFOs.
 Design Overview:
 The program supports one server and several clients. Each client can send some commands to the server and clients can communicate with each other through a proper input format.
 1. The server can be invoked by ‘a2chat -s fifoBasename nclient ’. ‘nclient’ should be no more than 5.
@@ -30,4 +29,3 @@ Acknowledgements:
 2. https://stackoverflow.com/questions/14173268/fifo-files-and-read-write
 3. http://man7.org/linux/man-pages/man2/select.2.html
 4. Textbook: Advanced Programming in UNIX Environment
-5. TA: Sepehr and Wanxin
